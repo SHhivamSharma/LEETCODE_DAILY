@@ -1,8 +1,10 @@
 // 493. Reverse Pairs
 
 class Solution {
-    
+    public int reversePairs(int[] nums) {
+        return mergesort(nums, 0, nums.length - 1);
 
+        
     }
     
     public int mergesort(int[] arr, int l, int r){
